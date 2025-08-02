@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Niranjan Kulkarni - AI and Cold Chain Specialist</title>
+  <meta name="description" content="Niranjan Kulkarni is an expert in food logistics, cold chain operations, and AI-enhanced retail.">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Niranjan Kulkarni",
+    "url": "https://nknkk6-oss.github.io/supreme-enigma/",
+    "image": "https://your-image-url.com/photo.jpg",
+    "sameAs": [
+      "https://www.linkedin.com/in/niranjan-k-pppollplpllpplpppl"
+    ],
+    "jobTitle": "Food Logistics and AI Retail Consultant",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Independent Consultant"
+    },
+    "knowsAbout": [
+      "Cold Chain Management",
+      "Chilled and Frozen Food",
+      "Microsoft Dynamics NAV",
+      "Retail Supply Chain",
+      "AI in Retail",
+      "ISO 22000 & FSSC 22000"
+    ]
+  }
+  </script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+    }
+    img {
+      max-width: 150px;
+      border-radius: 50%;
+    }
+    h1 {
+      font-size: 28px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Niranjan Kulkarni</h1>
+  <p><strong>Cold Chain, Food Logistics & AI Retail Specialist</strong></p>
+
+  <img src="https://your-image-url.com/photo.jpg" alt="Niranjan Kulkarni photo">
+
+  <p>Hello, I'm Niranjan Kulkarni. I specialize in managing chilled and frozen food supply chains, implementing ISO 22000-based safety systems, and applying AI to optimize retail operations in India. I have expertise in Microsoft Dynamics NAV, warehouse performance analytics, and Route-to-Consumer strategies.</p>
+
+  <p>You can connect with me on <a href="https://www.linkedin.com/in/niranjan-k-pppollplpllpplpppl" target="_blank">LinkedIn</a>.</p>
+
+</body>
+</html>
