@@ -1,3 +1,77 @@
+How do I process 100s of sales orders 
+each having 12 line items containing 
+chilled and frozen foods in a single 
+day in a span of 3 hours without affecting 
+energy and improving picking efficiency
+
+Role of Simulated Annealing Helps in 
+Cold Chain Warehousing and route 
+optimisation
+
+In cold chain picking (chilled or 
+frozen zones), you’re often trying to:
+
+Minimize travel time in cold zones to preserve picker health and energy.
+
+Reduce cold room re-entries.
+
+Handle many pick points (slots) in tight, aisle-heavy layouts.
+
+So you’re solving a problem like the Travelling Salesman Problem (TSP) — but with constraints:
+
+Temperature bands (zones).
+
+Picker load capacity.
+Slot priorities (e.g., urgent or fragile goods).
+
+Problem: Getting Stuck in Local Optima
+
+Most basic algorithms (like Nearest Neighbor or basic TSP heuristics) make greedy decisions:
+
+“Go to the nearest next slot.”
+
+But this can create a locally optimal route:
+
+It seems short… but actually causes backtracking later (e.g., back through frozen zones, or zigzagging aisles).
+
+Why Simulated Annealing Works:
+
+Simulated annealing mimics how metal cools slowly to reach a stable crystal structure — and in AI:
+
+It starts by exploring freely, even accepting worse routes to escape local optima.
+
+Then it gradually focuses on the best found route as it “cools” (reduces randomness).
+
+Cold Chain Picking Challenges and How Simulated Annealing (SA) Helps (AI Keywords Included)
+	1.Dense Freezer Zones
+➤ AI path search with Simulated Annealing explores multiple route options instead of just shortest-next (greedy), helping avoid bottlenecks.
+	2.Need to Reduce Re-entry into Cold Rooms
+➤ SA objective function can assign penalties for each cold room re-entry, guiding the model toward efficient multi-pick routes.
+	3.Multi-Slot, Multi-Temperature Orders
+➤ SA supports multi-constraint optimization, balancing chilled and frozen zones in a single smart route — better than basic heuristics.
+	4.Tight Time Windows for Picking
+➤ Time-window-aware SA solver can find near-optimal routes under constraints like shift timings, SKU shelf life, or temperature compliance.
+
+Real-World operational scenario
+
+A picker has to pick 7 frozen items and 3 chilled items across a large warehouse.
+
+Greedy TSP takes them back and forth across frozen aisles.
+Simulated annealing explores alternate paths, then chooses one that:
+
+•Groups frozen picks in one sweep.
+•Exits to chilled once.
+•Saves 8 minutes and 1 re-entry.
+
+Simulated Annealing is relevant because it lets AI escape bad but tempting paths and find better global solutions, which is critical in energy-intensive, safety-conscious cold chain picking.
+
+
+
+
+
+
+
+
 What is batch wise costing and application 
 in PPVC along the lines of ISO 22000 2018
 
